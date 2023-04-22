@@ -1,0 +1,105 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0px 100px 0px 100px;
+    display: grid;
+    background-color: white;
+}
+
+/*----- Header -----*/
+
+.nav-text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav-text h2 {
+    font-size: 1.7em;
+}
+
+.nav-text h3 {
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.items{
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2em;
+    
+}
+
+nav li {
+    display: inline;
+
+}
+
+/*----- About -----*/
+
+.about-container {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+.about-text {
+    width: 40%;
+  }
+  
+.about-image{
+    float: right;
+    width: 40%;
+}
+
+img {
+    width: 50%;
+    float: right;
+  }
+
+#about h1 {
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+}
+/*----- Portfolio -----*/
+
+#portfolio h2 {
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+}
+
+.portfolio-container li {
+   display: block;
+   list-style-type:square;
+}
+
+/*----- Skills -----*/
+
+#skills h2 {
+    color: orange;
+    text-shadow: 1px 1px 1px black;
+}
+
+.skills-container li {
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+
+
+/*----- Footer -----*/
+
+
+/*----- Contacts Page HTML -----*/
+
+.contact-image {
+    float: right;
+    width: 40%;
+}
+
+
