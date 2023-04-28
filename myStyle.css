@@ -22,19 +22,22 @@ html, body {
     font-style: italic;
 }
 
-.items{
+.items {
     text-align: center;
+}
+
+.items a:hover {
+    text-decoration: none;
+    color: orange;
 }
 
 li {
     list-style-type: none;
     font-size: 1.2em;
-    
 }
 
 nav li {
     display: inline;
-
 }
 
 /*----- About -----*/
@@ -52,7 +55,8 @@ nav li {
   
 .about-image{
     float: right;
-    width: 40%;
+    width: 50%;
+
 }
 
 img {
@@ -74,6 +78,11 @@ img {
 .portfolio-container li {
    display: block;
    list-style-type:square;
+}
+
+.portfolio-container a:hover {
+    text-decoration: none;
+    color: orange;
 }
 
 /*----- Skills -----*/
@@ -104,5 +113,16 @@ footer {
     float: right;
     width: 40%;
 }
+/*----- Media Query -----*/
+
+@media only screen and (max-width: 999px) {
+    .about-text {
+        width:auto;
+    }
+    .about-image {
+        display: none;
+    }
+}
+
 
 
