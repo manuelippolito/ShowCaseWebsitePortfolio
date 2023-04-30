@@ -11,6 +11,7 @@ html, body {
 .nav-text {
     text-align: center;
     padding-top: 10px;
+    float: left;
 }
 
 .nav-text h2 {
@@ -23,7 +24,10 @@ html, body {
 }
 
 .items {
-    text-align: center;
+    padding: 13px 0px 7px 0px;
+    float: right;
+    display: inline;
+    
 }
 
 .items a:hover {
@@ -41,6 +45,10 @@ nav li {
 }
 
 /*----- About -----*/
+
+#about, #portfolio, #skills  {
+    padding: 25px 0px 30px 0px;
+}
 
 .about-container {
     padding-top: 40px;
@@ -123,6 +131,3 @@ footer {
         display: none;
     }
 }
-
-
-
