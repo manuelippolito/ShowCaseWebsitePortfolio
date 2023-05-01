@@ -1,8 +1,8 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    margin: 0px 100px 0px 100px;
     display: grid;
+    margin: 0px 100px 0px 100px;
     background-color: white;
 }
 
@@ -47,7 +47,7 @@ nav li {
 /*----- About -----*/
 
 #about, #portfolio, #skills  {
-    padding: 25px 0px 30px 0px;
+    padding-top: 25px;
 }
 
 .about-container {
@@ -61,16 +61,16 @@ nav li {
     width: 40%;
   }
   
-.about-image{
+  .about-image{
     float: right;
     width: 50%;
 
 }
 
 img {
-    width: 50%;
     float: right;
-  }
+    width: 50%;
+}
 
 #about h1 {
     color: orange;
@@ -83,15 +83,32 @@ img {
     text-shadow: 1px 1px 1px black;
 }
 
-.portfolio-container li {
-   display: block;
-   list-style-type:square;
+#portfolio h3 {
+    text-align: center;
 }
 
-.portfolio-container a:hover {
-    text-decoration: none;
-    color: orange;
+.portfolio-container {
+    display: inline-flex;
+    margin-bottom: 20px;
+   
 }
+
+figure img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+
+figcaption {
+    text-decoration: none;
+    text-align: center;
+}
+
+figcaption:hover {
+    text-decoration: solid;
+    color: rgb(255, 157, 71);
+}
+
 
 /*----- Skills -----*/
 
@@ -112,6 +129,7 @@ img {
 /*----- Footer -----*/
 
 footer {
+    display: grid;
     text-align: center;
 }
 
@@ -124,10 +142,7 @@ footer {
 /*----- Media Query -----*/
 
 @media only screen and (max-width: 999px) {
-    .about-text {
-        width:auto;
-    }
-    .about-image {
-        display: none;
+    .portfolio-item {
+        width: auto;
     }
 }
